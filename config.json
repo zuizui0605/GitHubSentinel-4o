@@ -1,0 +1,7 @@
+{
+    "GITHUB_API_KEY": "your_github_api_token",
+    "NOTIFICATION_EMAIL": "your_email@example.com",
+    "NOTIFICATION_SLACK_WEBHOOK": "your_slack_webhook_url",
+    "SCHEDULE_INTERVAL": "daily",  // 支持 "daily" 或 "weekly"
+    "NOTIFICATION_METHOD": "email" // 支持 "email", "slack" 等
+}
