@@ -25,19 +25,19 @@ class GitHubSentinel(cmd.Cmd):
     def print_welcome_message(self):
         """打印工具的欢迎信息和基本用法"""
         welcome_message = """
-欢迎使用 GitHubSentinel 交互式命令行工具！
-您可以通过以下命令来管理 GitHub 仓库的订阅、手动获取更新和启动后台任务：
+                        欢迎使用 GitHubSentinel 交互式命令行工具！
+                        您可以通过以下命令来管理 GitHub 仓库的订阅、手动获取更新和启动后台任务：
 
-可用命令：
-  add <repo>            添加仓库订阅 (格式：owner/repo)
-  remove <repo>         删除仓库订阅
-  list                  列出所有订阅的仓库
-  fetch                 手动获取订阅仓库的更新
-  scheduler_start       启动后台定时任务 Scheduler
-  scheduler_stop        停止后台定时任务 Scheduler
-  help                  查看命令的帮助信息
-  exit                  退出工具
-"""
+                        可用命令：
+                        add <repo>            添加仓库订阅 (格式：owner/repo)
+                        remove <repo>         删除仓库订阅
+                        list                  列出所有订阅的仓库
+                        fetch                 手动获取订阅仓库的更新
+                        scheduler_start       启动后台定时任务 Scheduler
+                        scheduler_stop        停止后台定时任务 Scheduler
+                        help                  查看命令的帮助信息
+                        exit                  退出工具
+                        """
         print(welcome_message)
 
     def fetch_updates(self):
