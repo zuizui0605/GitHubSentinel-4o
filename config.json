@@ -1,0 +1,7 @@
+{
+    "GITHUB_API_KEY": "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",
+    "NOTIFICATION_EMAIL": "your_email@example.com",
+    "NOTIFICATION_SLACK_WEBHOOK": "your_slack_webhook_url",
+    "SCHEDULE_INTERVAL": "daily",
+    "NOTIFICATION_METHOD": "email"
+}
